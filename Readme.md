@@ -2,6 +2,35 @@
 
 # Database Management Application Prototype
 The role of this small web relation management application is to be a standard where the student may extend the capabilities integrating more relational operations. The view of the application is written in a compact view (front-end) library `React`, in `TypeScript`. Feel free to check the *detailed comments* on the code to get to know what it does. The **main part**, the back-end operations are written in Python, using the library `flask`, and PostgresQL is used as the database engine. The directory structure and program architecture is given below and to activate/setup the environment, follow the instructions below.
+## Group Members (IT2002 Group 16)
+1. Joyce Lim Qi Yan A0269448L
+## Collaborating
+The following instruction is written under the assumption that you have access to our virtual machine and aims to help everyone get started on the project. Note that this repository was already cloned in our VM and can be found under the `~/Projects` directory. If you are cloning this project into your local computer, start by cloning this project using `git clone`:
+```
+# Using HTTPS:
+git clone https://github.com/mylausai/it2002-project-16.git
+# Using SSH (recommended):
+# Please refer to this documentation for more instructions on how to git clone with SSH key: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys
+git clone git@github.com:mylausai/it2002-project-16.git
+```
+When working on a feature, please createe a new branch in the following format `<name>-<featurename>` with the following command:
+```
+# This is to get the updated main branch
+git checkout main
+git pull origin main
+
+# create your branch
+git checkout -b <name>-<featurename>
+```
+Do your edits as you please (example: add your name under Group Members in the Readme.md file). Next, stage your changes:
+```
+git add .
+```
+Commit your changes:
+```
+git commit -m "This is your DETAILED commit message"
+```
+You can then go ahead and submit a pull request to the main branch using the Github website.
 ## Directory Structure
 1. `docker-compose.yaml` - Docker compose file used to build the Postgres environment and its admin interface
 2. `app.py` - codebase of the backend API and database integration. SQL statements to be written here
