@@ -114,3 +114,44 @@
     width: 100%;
     background-color: #FFF3B0; 
   }
+
+
+  .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+  }
+  
+  .car-item {
+    width: 30%;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .car-image {
+    max-width: 100%;
+    height: auto;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+  }
+  
+  .car-title {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .car-description {
+    color: #666;
+    margin-bottom: 1em;
+  }
+  
+  .car-price {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #c00;
+  }
