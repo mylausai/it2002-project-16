@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CarSharing Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rent.html">Rent</a></li>
+          <li><a href="share.html" class="current">Share</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <form>
+                <h1>Share Your Car</h1>
+                <label for="carMake">Make</label>
+                <input type="text" id="carMake" name="carMake" required>
+                <label for="carModel">Model</label>
+                <input type="text" id="carModel" name="carModel" required>
+                <label for="carYear">Year</label>
+                <input type="number" id="carYear" name="carYear" required>
+                <label for="autoMan">Transmission Type</label>
+                <select id="Auto/Manual" name="autoMan" required>
+                    <option value="">Select transmission type</option>
+                    <option value="auto">Auto</option>
+                    <option value="manual">Manual</option>
+                </select>
+                <label for="carSeats">Seats</label>
+                <select id="carSeats" name="carSeats" required>
+                  <option value="">Select number of seats</option>
+                  <option value="2">2</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="7">7</option>
+                </select>
+                <label for="carDescription">Description</label>
+                <textarea id="carDescription" name="carDescription" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+              </form>
+        </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 CarSharing. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
