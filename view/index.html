@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>CarSharing Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>CarSharing</h1>
+        <p>Get a car when you need it, wherever you need it.</p>
+        <a href="#" class="btn">Sign up now</a>
+      </section>
+      <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>
+            <img src="car.png" alt="Car">
+            <h3>Car Rental</h3>
+            <p>Choose from a wide range of cars and rent by the hour, day or week.</p>
+          </li>
+          <li>
+            <img src="map.png" alt="Map">
+            <h3>Car Sharing</h3>
+            <p>Share your car with others and make money while you're not using it.</p>
+          </li>
+          <li>
+            <img src="parking.png" alt="Parking">
+            <h3>Parking</h3>
+            <p>Find parking spaces near your destination and reserve them in advance.</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <a href="database.html">Database</a>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 CarSharing. All rights reserved.</p>
+    </footer>
   </body>
 </html>
