@@ -5,6 +5,7 @@ The role of this small web relation management application is to be a standard w
 ## Group Members (IT2002 Group 16)
 1. Joyce Lim Qi Yan A0269448L
 2. Desmond Eng Kian Wee A0222563L
+3. Raymond Chin Fu Rui A0201943M
 ## Collaborating
 The following instruction is written under the assumption that you have access to our virtual machine and aims to help everyone get started on the project. Note that this repository was already cloned in our VM and can be found under the `~/Projects` directory. If you are cloning this project into your local computer, start by cloning this project using `git clone`:
 ```
