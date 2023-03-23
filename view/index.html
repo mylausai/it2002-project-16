@@ -9,10 +9,10 @@
   <body>
     <header>
       <nav>
-        <ul>
+        <ul class="menu">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a href="#">Rent</a></li>
+          <li><a href="#">Share</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
@@ -21,29 +21,32 @@
       <section class="hero">
         <h1>CarSharing</h1>
         <p>Get a car when you need it, wherever you need it.</p>
-        <a href="#" class="btn">Sign up now</a>
+        <div class="logsignin">
+          <ul>
+            <li><a href="#" class="btn btn-login">Log in</a></li>
+            <li><a href="#" class="btn btn-signup">Sign up now</a></li>
+          </ul>
+        </div>
       </section>
       <section class="services">
         <h2>Our Services</h2>
-        <ul>
-          <li>
-            <img src="car.png" alt="Car">
-            <h3>Car Rental</h3>
+        
+        <div class="container">
+          <div class="component">
+            <h2>Car Rental</h2>
             <p>Choose from a wide range of cars and rent by the hour, day or week.</p>
-          </li>
-          <li>
-            <img src="map.png" alt="Map">
-            <h3>Car Sharing</h3>
+          </div>
+          <div class="component">
+            <h2>Car Sharing</h2>
             <p>Share your car with others and make money while you're not using it.</p>
-          </li>
-          <li>
-            <img src="parking.png" alt="Parking">
-            <h3>Parking</h3>
+          </div>
+          <div class="component">
+            <h2>Parking</h2>
             <p>Find parking spaces near your destination and reserve them in advance.</p>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
-      <section>
+      <section class="datalink">
         <a href="database.html">Database</a>
       </section>
     </main>

@@ -1,38 +1,116 @@
-body {
-    font-family: Arial, sans-serif;
+  html, body {
+    height: 100%;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav {
+    background-color: #0e1e4c;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    margin-right: 0;
+    flex-basis: 10%;
+    text-align: center;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .menu a:hover {
+    background-color: #e6e9f2;
+    color: #000000;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .logsignin ul {
+    list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  .logsignin li {
+    display: inline-block;
+    margin-right: 10px;
   }
   
-  h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+  .logsignin li:last-child {
+    margin-right: 0;
   }
   
-  p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  .button {
+  .logsignin a.btn {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 18px;
     text-align: center;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s ease-in-out;
+    font-size: 16px;
+  }
+
+  .logsignin .btn-login {
+    background-color: #3b60cd;
+    color: rgb(255, 255, 255);
   }
   
-  .button:hover {
-    background-color: #0062cc;
+  .logsignin .btn-signup {
+    background-color: rgb(225, 142, 33);
+    color: rgb(255, 255, 255);
+  }
+   
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .component {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+  }
+
+  section:nth-of-type(odd) {
+    width: 100%;
+    background-color: #e6e9f2; 
+  }
+  
+  section:nth-of-type(even) {
+    width: 100%;
+    background-color: #edf1fd; 
+  }
+  
+  section:nth-of-type(3n) {
+    width: 100%;
+    background-color: #FFF3B0; 
   }
